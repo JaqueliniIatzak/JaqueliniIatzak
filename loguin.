@@ -1,0 +1,37 @@
+DOCTYPE html> <div class="alarm-container" id="alarm-container">
+<div class="input-container">
+<div class="input1">Hour:<input id="i1" type="number" /></div>
+<div class="input2">Minute:<input id="i2" type="number" /></div>
+<select id="ampm1">
+<option value="AM">AM</option>
+<option value="PM">PM</option>
+</select>
+</div>
+<strong id="alert"> </strong>
+<button class="ok-btn" onclick="okBtn()">Ok</button>
+</div>
+<div class="time" id="time">
+<div class="onoff">
+<div>Alarm :</div>
+<div>
+<input type="checkbox" id="checkbox" onclick="checkbox1()" />
+</div>
+</div>
+<div class="time-container" id="time-container">
+<p id="p1"></p>
+<div class="box-erp-login">
+<form>
+<div style="margin-top: 1em">
+<label for="session[email]">E-mail</label>
+<input type="email" name="session[email]" required="">
+</div>
+<div style="margin-top: 1em">
+<label for="session[senha]">Senha</label>
+<input type="password" name="session[senha]" required="">
+</div>
+<div style="margin-top: .5em;">
+<label> <input type="checkbox" name="session[conectado]" /> Manter Conectado
+</label>
+</div>
+<div style="margin-top: 1em">
+<html>
