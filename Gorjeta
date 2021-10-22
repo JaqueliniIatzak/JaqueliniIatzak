@@ -1,0 +1,29 @@
+<script>
+function Calcula(){
+var valor1 = parseFloat(document.getElementById("valor1").value);
+var valor2 = parseFloat(document.getElementById("valor2").value);
+if (valor1 > valor2)
+document.getElementById("resultado").value = (valor1/valor2)-1 *100;
+else
+document.getElementById("resultado").value = (valor2/valor1)-1 *100;
+}
+</div>
+<strong id="alert"> </strong>
+<button class="ok-btn" onclick="okBtn()">Ok</button>
+</div>
+<div class="time" id="time">
+<div class="onoff">
+<div>Alarm :</div>
+<div>
+<input type="checkbox" id="checkbox" onclick="checkbox1()" />
+</div>
+</div>
+<div class="time-container" id="time-container">
+<p id="p1"></p>
+<p id="p3"></p>
+</div>
+<button class="set-btn" id="set-btn" onclick="setBtn()"><b>+</b></button>
+<button class="set-btn" id="stop-btn" onclick="stopBtn()">Stop</button>
+</div>
+</body>
+</html>
